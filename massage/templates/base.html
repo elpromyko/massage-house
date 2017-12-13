@@ -1,11 +1,15 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Inventory</title>
+    <link rel="stylesheet" href="{% static 'massage/main.css' %}">
 </head>
 <body>
     {% block content %}
     {% endblock %}
+    <script src="{% static 'massage/main.js' %}"></script>
 </body>
 </html>
