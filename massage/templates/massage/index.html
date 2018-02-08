@@ -11,4 +11,7 @@
             </li>
         {% endfor %}
     </ul>
+    {{ clients.name }} {{ clients.surname }}
+    {{ clients }}<br>
+    Average rating of masseur X: {{ masseur_rates|floatformat }}
 {% endblock %}
